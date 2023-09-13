@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <title>Ingreso</title>
+</head>
+<body>
+    <header>
+        <img class="h" src="imagen_2023-09-12_191139675.png" alt="logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+         <li><a href="formulario.html">Registrarse</a></li>
+            </ul>
+        </nav> 
+        </header>
+    <form action m="newServlet"method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="fechaN">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaN" name="fechaN" required>
+        <label for="celular">Numero Telefonico:</label>
+        <input type="number" id="celular" name="celular" required>
+
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+</body>
+</html>
